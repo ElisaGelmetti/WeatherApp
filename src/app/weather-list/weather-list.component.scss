@@ -1,0 +1,27 @@
+.card {
+  width: 300px;
+  margin-top: 20px;
+  border: 1px solid --grey-1;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px var (--shadow-dark);
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+}
